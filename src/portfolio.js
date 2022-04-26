@@ -26,7 +26,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/albert1998/",
   gmail: "donnis1998@gmail.com",
   // gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/albert1998/",
+  //facebook: "https://www.facebook.com/albert1998/",
   twitter: "https://twitter.com/Alberto_9808/",
   instagram: "https://www.instagram.com/alberto_torres1998/",
 };
@@ -335,18 +335,18 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "SRM Institute of Science and Technology",
-      subtitle: "Bachelors in Computer Science and Engineering",
-      logo_path: "SRM_Logo.png",
-      alt_name: "SSEC",
-      duration: "2019 - 2023",
+      title: "Universidad Técnica de Machala",
+      subtitle: "Systems Engineer",
+      logo_path: "utmach_logo.png",
+      alt_name: "UTMACH",
+      duration: "2016 - 2021",
       descriptions: [
-        "⚡  I'm currently pursuing my Bachelors in Computer Science and Engineering.",
+        "⚡  I obtained my degree through the degree work with the subject: 'Mobile application for the administrative management of restaurants affiliated with the delivery service applying the Swirl methodology.'",
         // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://www.srmist.edu.in/",
+      website_link: "http://repositorio.utmachala.edu.ec/handle/48000/17868",
     },
   ],
 };
@@ -364,22 +364,42 @@ const certifications = {
       color_code: "#2AAFED",
     },
     {
-      title: "Hackathon",
-      subtitle: "Backyard Hacks 2.0",
-      logo_path: "hackathon1.png",
-      // certificate_link:
-      //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#f47e2c",
+      title: "LinkedIn",
+      subtitle: "JavaScript Avanzado: Buenas Prácticas",
+      logo_path: "linkedin_logo.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/58fda2b6f91a9a768414e83abb589e9b3775d4042a8e9aab63fd33e320377e1f",
+      alt_name: "linkedin",
+      color_code: "#0077B5",
     },
     {
-      title: "Hackathon",
-      subtitle: "HyperHacks",
-      logo_path: "hackathon2.png",
-      // certificate_link:
-      //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
+      title: "LinkedIn",
+      subtitle: "SCRUM",
+      logo_path: "linkedin_logo.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/69523730b6e03e9a80a8ccfcf3cc549e1d3d6998ec6dff886036705520ab1c73",
+      alt_name: "linkedin",
+      color_code: "#0077B5",
+    },
+    {
+      title: "Google Activate",
+      subtitle:
+        "Curso de Introducción al Desarrollo Web: HTML y CSS (ID Credencial: 9M8 LEW DYR)",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://learndigital.withgoogle.com/activate/validate-certificate-code",
+      alt_name: "google_activate",
+      color_code: "#2AAFED",
+    },
+    {
+      title: "Google Activate",
+      subtitle:
+        "Protege tu Negocio: Ciberseguridad en el Teletrabajo (ID Credencial: D4D FQL A5V)",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://learndigital.withgoogle.com/activate/validate-certificate-code",
+      alt_name: "google_activate",
+      color_code: "#2AAFED",
     },
     // {
     //   title: "A300: Atlas Security",
@@ -591,7 +611,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile_photo_2.jpeg",
+    profile_image_path: "profile_photo_2.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
