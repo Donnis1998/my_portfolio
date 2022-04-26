@@ -9,27 +9,26 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Vedansh",
-  logo_name: "vedansh.v()",
+  title: "hey there! 👋.",
+  title2: "Alberto Torres",
+  logo_name: "Alberto.dev()",
   // nickname: "harry / picleric",
-  full_name: "Vedansh Vijaywargiya",
-  subTitle:
-    "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
+  full_name: "Alberto Torres Apolinario",
+  subTitle: "Full Stack Developer.",
   resumeLink:
     "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
-  mail: "mailto:im.vedanshvijay2002@gmail.com",
+  mail: "mailto:alberto_torres1998@outlook.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/vvHacker007/",
-  linkedin: "https://www.linkedin.com/in/vedansh-vijaywargiya/",
-  gmail: "im.vedanshvijay2002@gmail.com",
+  github: "https://github.com/Donnis1998/",
+  linkedin: "https://www.linkedin.com/in/albert1998/",
+  gmail: "donnis1998@gmail.com",
   // gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/vedansh.vijaywargiya/",
-  twitter: "https://twitter.com/vedansh_v_/",
-  instagram: "https://www.instagram.com/vedv_2002/",
+  facebook: "https://www.facebook.com/albert1998/",
+  twitter: "https://twitter.com/Alberto_9808/",
+  instagram: "https://www.instagram.com/alberto_torres1998/",
 };
 
 const skills = {
@@ -38,10 +37,11 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive User Interfaces and Backend for web applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Creating application backend in Node, Express, Flask, Django and Fast-API",
-        "⚡ Integration of third party services such as Firebase/ AWS / GCP",
+        "⚡ Develop highly interactive User Interfaces and Backend for web and mobile applications",
+        "⚡ Building responsive website front end using ReactJS and mobile apps with React Native",
+        "⚡ Creating application backend in Node, Express, REST-API and GraphQL",
+        "⚡ Integration of third party services such as Firebase",
+        "⚡ Prototype design using Figma",
       ],
       softwareSkills: [
         {
@@ -59,11 +59,10 @@ const skills = {
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
           style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
+            color: "#36BDC7",
           },
         },
         {
@@ -74,7 +73,37 @@ const skills = {
           },
         },
         {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#FFFFFF",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            backgroundColor: "#FFFFFF",
+            color: "#0064a5",
+          },
+        },
+        {
           skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Expo",
+          fontAwesomeClassname: "simple-icons:expo",
+          style: {
+            color: "#000",
+          },
+        },
+        {
+          skillName: "React Native",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
@@ -95,17 +124,25 @@ const skills = {
           },
         },
         {
-          skillName: "Flask",
-          fontAwesomeClassname: "simple-icons:flask",
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
           style: {
-            color: "#000000",
+            color: "#DE33A6",
+          },
+        },
+
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1",
           },
         },
         {
-          skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
-            color: "#0c4b33",
+            color: "#0064a5",
           },
         },
         {
@@ -115,20 +152,29 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Android",
-        //   fontAwesomeClassname: "simple-icons:android",
-        //   style: {
-        //     color: "#3DDC84",
-        //   },
-        // },
+        {
+          skillName: "Firestore",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFC300",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#CE0728",
+          },
+        },
+        /* 
+
         {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
@@ -136,7 +182,15 @@ const skills = {
             color: "#f89820",
           },
         },
-        // {
+         // {
+        //   skillName: "Android",
+        //   fontAwesomeClassname: "simple-icons:android",
+        //   style: {
+        //     color: "#3DDC84",
+        //   },
+        // },
+
+         // {
         //   skillName: "Flutter",
         //   fontAwesomeClassname: "simple-icons:flutter",
         //   style: {
@@ -151,40 +205,26 @@ const skills = {
         //   },
         // },
         {
-          skillName: "Linux",
-          fontAwesomeClassname: "simple-icons:linux",
+          skillName: "jQuery",
+          fontAwesomeClassname: "simple-icons:jquery",
           style: {
-            color: "#000000",
+            color: "#0865A6",
           },
         },
         {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
+          skillName: "Wordpress",
+          fontAwesomeClassname: "simple-icons:wordpress",
           style: {
-            color: "#4479A1",
+            color: "#207297",
           },
         },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Wordpress",
-        //   fontAwesomeClassname: "simple-icons:wordpress",
-        //   style: {
-        //     color: "#207297",
-        //   },
-        // },
-        // {
-        //   skillName: "Apache",
-        //   fontAwesomeClassname: "simple-icons:apache",
-        //   style: {
-        //     color: "#CA1A22",
-        //   },
-        // },
+        {
+           skillName: "Apache",
+           fontAwesomeClassname: "simple-icons:apache",
+           style: {
+             color: "#CA1A22",
+           },
+         },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -212,30 +252,24 @@ const skills = {
           style: {
             color: "#3776AB",
           },
-        },
+        }, */
       ],
     },
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Experience working with cloud platforms as Firebase and Google Cloud Platform",
+        "⚡ Experience with cloud database management",
         "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Experience setting up domains with Google Domains",
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Google Cloud Platform",
+          fontAwesomeClassname: "simple-icons:googlecloud",
           style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
+            color: "#215CCE",
           },
         },
         {
@@ -266,13 +300,26 @@ const skills = {
             color: "#47A248",
           },
         },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
+
+        /* 
+        
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+
+        */
+
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "simple-icons:githubactions",
