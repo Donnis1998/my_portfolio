@@ -52,6 +52,16 @@ function CertificationCard(props) {
             {certificate.subtitle}
           </h3>
         </div>
+        <div>
+          <a
+            href={certificate.certificate_link}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: theme.text, marginBottom: 10 }}
+          >
+            See certificate
+          </a>
+        </div>
       </div>
     </Fade>
   );

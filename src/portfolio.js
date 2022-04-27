@@ -3,7 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
@@ -695,7 +695,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
-    link: "https://medium.com/@vedanshvijay/",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
 };
