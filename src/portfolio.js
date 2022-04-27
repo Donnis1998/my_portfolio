@@ -354,23 +354,13 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Google Cloud",
-      subtitle: "Google Cloud Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1r0hYt8Pp0N0u_4Tg-poMF1Qv3LkoKVAP/view",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#2AAFED",
-    },
-    {
       title: "LinkedIn",
       subtitle: "JavaScript Avanzado: Buenas Prácticas",
       logo_path: "linkedin_logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/58fda2b6f91a9a768414e83abb589e9b3775d4042a8e9aab63fd33e320377e1f",
       alt_name: "linkedin",
-      color_code: "#0077B5",
+      color_code: "#E3F3FC",
     },
     {
       title: "LinkedIn",
@@ -379,7 +369,7 @@ const certifications = {
       certificate_link:
         "https://www.linkedin.com/learning/certificates/69523730b6e03e9a80a8ccfcf3cc549e1d3d6998ec6dff886036705520ab1c73",
       alt_name: "linkedin",
-      color_code: "#0077B5",
+      color_code: "#E3F3FC",
     },
     {
       title: "Google Activate",
@@ -389,7 +379,7 @@ const certifications = {
       certificate_link:
         "https://learndigital.withgoogle.com/activate/validate-certificate-code",
       alt_name: "google_activate",
-      color_code: "#2AAFED",
+      color_code: "#F4F3B2",
     },
     {
       title: "Google Activate",
@@ -399,8 +389,93 @@ const certifications = {
       certificate_link:
         "https://learndigital.withgoogle.com/activate/validate-certificate-code",
       alt_name: "google_activate",
-      color_code: "#2AAFED",
+      color_code: "#F4F3B2",
     },
+    {
+      title: "Udemy",
+      subtitle: "JavaScript - De cero a experto",
+      logo_path: "udemy_logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-e024c0b2-3cb6-4589-8a77-7c6a9cb1b541/",
+      alt_name: "udemy",
+      color_code: "#DDB2F4",
+    },
+    {
+      title: "Udemy",
+      subtitle: "Excel - De Básico a Profesional",
+      logo_path: "udemy_logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+      alt_name: "udemy",
+      color_code: "#DDB2F4",
+    },
+    {
+      title: "CISCO",
+      subtitle: "Introducción a Internet de todo",
+      logo_path: "cisco_logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+      alt_name: "cisco",
+      color_code: "#FFF",
+    },
+    {
+      title: "Universidad Técnica de Machala",
+      subtitle:
+        "Análisis de Seguridad en IoT 'Dispositivos inteligentes, ¿Decisiones inteligentes?' ",
+      logo_path: "utmach_logo2.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+      alt_name: "utmach",
+      color_code: "#95F5B2",
+    },
+    {
+      title: "Universidad Técnica de Machala",
+      subtitle:
+        "III Congreso Internacional de Tecnologías para el Desarrollo TECDES 2019",
+      logo_path: "utmach_logo2.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+      alt_name: "utmach",
+      color_code: "#95F5B2",
+    },
+    {
+      title: "Universidad Técnica de Machala",
+      subtitle:
+        "Conocimiento en herramientas web y tecnologías de la información",
+      logo_path: "utmach_logo2.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+      alt_name: "utmach",
+      color_code: "#95F5B2",
+    },
+    {
+      title: "Universidad Técnica de Machala",
+      subtitle: "Conocimiento en herramientas de utilitarios y suite ofimática",
+      logo_path: "utmach_logo2.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+      alt_name: "utmach",
+      color_code: "#95F5B2",
+    },
+    {
+      title: "Universidad Técnica de Machala",
+      subtitle: "Mencion de Honor en Concurso de Programación Básica 2017",
+      logo_path: "utmach_logo2.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+      alt_name: "utmach",
+      color_code: "#95F5B2",
+    },
+    {
+      title: "Universidad Técnica de Machala",
+      subtitle: "Mencion de Honor en Concurso de Programación Básica 2016",
+      logo_path: "utmach_logo2.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+      alt_name: "utmach",
+      color_code: "#95F5B2",
+    },
+
     // {
     //   title: "A300: Atlas Security",
     //   subtitle: "MongoDB University",
@@ -411,15 +486,7 @@ const certifications = {
     //   // color_code: "#F6B808",
     //   color_code: "#47A048",
     // },
-    {
-      title: "Contributor's Hack",
-      subtitle: "Hakin Codes",
-      logo_path: "HakinCodes.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1xvyy1M05lQN-s2VKw_Qvz6E7rPwrK2qm/view?usp=sharing",
-      alt_name: "Opensource Event",
-      color_code: "#fefd7b",
-    },
+
     // {
     //   title: "MLH Local Hack Day: Build",
     //   subtitle: "Major League Hacking",
@@ -429,6 +496,15 @@ const certifications = {
     //   alt_name: "Google",
     //   color_code: "#fe0037",
     // },
+    /* {
+      title: "Contributor's Hack",
+      subtitle: "Hakin Codes",
+      logo_path: "HakinCodes.jfif",
+      certificate_link:
+        "https://drive.google.com/file/d/1xvyy1M05lQN-s2VKw_Qvz6E7rPwrK2qm/view?usp=sharing",
+      alt_name: "Opensource Event",
+      color_code: "#fefd7b",
+    },
     {
       title: "Olympiad",
       subtitle: "Ramanujan Mathematics Olympiad",
@@ -475,7 +551,7 @@ const certifications = {
         "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
       alt_name: "Reply",
       color_code: "#88e7ce",
-    },
+    }, */
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
