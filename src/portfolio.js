@@ -702,7 +702,7 @@ const contactPageData = {
 
 const projects = {
   data: [
-    {
+    /* {
       id: "0",
       name: "Mind Space",
       url: "https://www.mindspace.cf/",
@@ -1055,7 +1055,7 @@ const projects = {
           iconifyClass: "logos-react",
         },
       ],
-    },
+    }, */
   ],
 };
 
