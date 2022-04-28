@@ -414,7 +414,7 @@ const certifications = {
       subtitle: "Introducción a Internet de todo",
       logo_path: "cisco_logo.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+        "https://drive.google.com/file/d/1F3KBzED2N4CTGSOBmP4prg9feBNbDVcV/view?usp=sharing",
       alt_name: "cisco",
       color_code: "#FFF",
     },
@@ -424,7 +424,7 @@ const certifications = {
         "Análisis de Seguridad en IoT 'Dispositivos inteligentes, ¿Decisiones inteligentes?' ",
       logo_path: "utmach_logo2.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+        "https://drive.google.com/file/d/1ReATqPiCj5XWd3cIbGJQrMiEpWP1a1zn/view?usp=sharing",
       alt_name: "utmach",
       color_code: "#95F5B2",
     },
@@ -434,7 +434,7 @@ const certifications = {
         "III Congreso Internacional de Tecnologías para el Desarrollo TECDES 2019",
       logo_path: "utmach_logo2.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+        "https://drive.google.com/file/d/1R_HhdezZEO9zKbsdlCEzcsYArgrDZ_FG/view?usp=sharing",
       alt_name: "utmach",
       color_code: "#95F5B2",
     },
@@ -444,7 +444,7 @@ const certifications = {
         "Conocimiento en herramientas web y tecnologías de la información",
       logo_path: "utmach_logo2.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+        "https://drive.google.com/file/d/1c3dossPd2hhNUgW-TKgtFceOpUMUQWkd/view?usp=sharing",
       alt_name: "utmach",
       color_code: "#95F5B2",
     },
@@ -453,7 +453,7 @@ const certifications = {
       subtitle: "Conocimiento en herramientas de utilitarios y suite ofimática",
       logo_path: "utmach_logo2.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+        "https://drive.google.com/file/d/1LhI5OQIZJrEzh_vq2brRq4V2GxBAsHvp/view?usp=sharing",
       alt_name: "utmach",
       color_code: "#95F5B2",
     },
@@ -462,7 +462,7 @@ const certifications = {
       subtitle: "Mencion de Honor en Concurso de Programación Básica 2017",
       logo_path: "utmach_logo2.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+        "https://drive.google.com/file/d/1fTSYrm2I0W4ZhwVsqFHy6wBBMniE1fj6/view?usp=sharing",
       alt_name: "utmach",
       color_code: "#95F5B2",
     },
@@ -471,7 +471,7 @@ const certifications = {
       subtitle: "Mencion de Honor en Concurso de Programación Básica 2016",
       logo_path: "utmach_logo2.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-d8d889ba-f45e-4044-b4b3-b6a2b5e74e5e/",
+        "https://drive.google.com/file/d/1X98-pTQ9pGZJWx1M_ldatGwzNcBnnRxY/view?usp=sharing",
       alt_name: "utmach",
       color_code: "#95F5B2",
     },
@@ -679,7 +679,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My greatest experience is building Node.js backend projects and mobile apps with React Native and Firebase. Below are some of my projects. Please note that not all of the projects mentioned are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -702,35 +702,133 @@ const contactPageData = {
 
 const projects = {
   data: [
-    /* {
+    {
       id: "0",
-      name: "Mind Space",
-      url: "https://www.mindspace.cf/",
+      name: "Findely",
+      img: "findely.png",
+      url: "https://app.findelyec.com/",
       description:
-        "This is Blogging website where users can create blogs, follow and unfollow other users, get summarized blog reccomendation on their dashboard and have a personalised searching mechanism.",
+        "Findely is a platform that aims to allow people to know important information about the various businesses, professionals, services, transportation and more that are available in their city, all in a single app.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "React Native",
+          iconifyClass: "logos-react",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "Expo",
+          iconifyClass: "logos-expo-icon",
         },
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Node.js",
+          iconifyClass: "vscode-icons:file-type-node",
         },
         {
-          name: "Flask",
-          iconifyClass: "cib-flask",
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Google Maps API",
+          iconifyClass: "logos-google-maps",
         },
       ],
     },
+    {
+      id: "1",
+      name: "Findely Partners",
+      img: "findely_partners.png",
+      url: "https://partners.findelyec.com/",
+      description:
+        "Findely Partners allows businesses linked to the Findely platform to manage their business profiles, orders, product or service catalogs, among other features.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Expo",
+          iconifyClass: "logos-expo-icon",
+        },
+        {
+          name: "Node.js",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Google Maps API",
+          iconifyClass: "logos-google-maps",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Agenda Camaronera",
+      img: "agenda_camaronera.png",
+      url:
+        "https://play.google.com/store/apps/details?id=com.findely.agendacamaronera",
+      description:
+        "Agenda Camaronera is an application that aims to facilitate the management of information within small shrimp companies, in addition to providing the indicators (KPIs) necessary to carry out efficient decision making.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Expo",
+          iconifyClass: "logos-expo-icon",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Node.js",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "My Haircuts",
+      img: "my_haircuts.png",
+      url:
+        "https://play.google.com/store/apps/details?id=com.findely.myhaircuts",
+      description:
+        "My Haircuts tiene como objetivo facilitar el registro ingresos y gastos diarios de barberos, de tal manera que sea más fácil y rápido conocer sus ganancias netas.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Expo",
+          iconifyClass: "logos-expo-icon",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    /*
     {
       id: "1",
       name: "Youtube Downloader",

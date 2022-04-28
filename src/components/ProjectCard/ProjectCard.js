@@ -38,6 +38,11 @@ export default function ProjectCard({ repo, theme }) {
               {repo.name}
             </p>
           </div>
+          <img
+            src={require("../../assests/images/projects/" + repo.img)}
+            style={{ maxHeight: "50%", width: "100%", marginTop: 10 }}
+            alt={repo.name}
+          />
           <p className="repo-description" style={{ color: theme.text }}>
             {repo.description}
           </p>
