@@ -567,27 +567,26 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Pre-Pprofessional Practices",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I have completed an internship, I have also developed small projects for local clients as well as my own projects.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "Technocolabs",
-          company_url: "https://technocolabs.com/",
-          logo_path: "Technocolabs.jfif",
-          duration: "Sept 2020 - Oct 2020",
+          title: "Freelance",
+          company: "Findely",
+          company_url: "https://findelyec.com/",
+          logo_path: "findely_logo.png",
+          duration: "Sept 2020 - Presente",
           location: "Remote",
-          description: `Analysed the changes before and after people started using sanitizers using the covid-19 dataset. Built and analysed several predictive models for defaulting user’s credit card and deployed it on a full-stack website using Flask. Made a predictive model for Blood Donation for Future Expectancy and deployed it on a fully-fledged website. Increased productivity and problem-solving technics by 20%. 
-          `,
+          description: `Design and development of mobile applications and web pages.`,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
-        {
+        /* {
           title: "Data Science Intern",
           company: "The Sparks Foundation",
           company_url: "hhttps://thesparksfoundation.info/",
@@ -598,24 +597,24 @@ const experience = {
           `,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
-        },
+        }, */
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Pre-Pprofessional Practices",
       experiences: [
         {
-          title: "R&D Member",
-          company: "Webarch Club",
-          company_url: "https://www.webarchsrm.com/",
-          logo_path: "Webarch.jfif",
-          duration: "Mar 2020 - Nov 2020",
-          location: "SRM IST Kattankulathur",
+          title: "Web Developer",
+          company: "Interbytes Proveedor de Internet",
+          company_url: "https://interbytes.net/",
+          logo_path: "interbytes_logo.png",
+          duration: "Nov 2019 - Ene 2020",
+          location: "Pasaje, El Oro",
           description:
-            "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
+            "During the time that I did my pre-professional practices, I was in charge of developing the company's website, developing the client module for the billing system, as well as managing the payments of internet service subscribers.",
           color: "#4285F4",
         },
-        {
+        /* {
           title: "Campus Leader",
           company: "Code For Cause",
           company_url: "https://www.codecau.se/",
@@ -669,7 +668,7 @@ const experience = {
           description:
             "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
           color: "#282b6c",
-        },
+        }, */
       ],
     },
   ],
