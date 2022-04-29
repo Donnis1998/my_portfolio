@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Alberto Torres Apolinario",
   subTitle: "Full Stack Developer.",
   resumeLink:
-    "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
+    "https://drive.google.com/file/d/1IQiep2mhaAy5LpXtnzZVDPLIAxSSWwc4/view?usp=sharing",
   mail: "mailto:alberto_torres1998@outlook.com",
 };
 
